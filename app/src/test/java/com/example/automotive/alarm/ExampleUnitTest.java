@@ -1,4 +1,4 @@
-package com.example.ckm.adas;
+package com.example.automotive.alarm;
 
 import org.junit.Test;
 

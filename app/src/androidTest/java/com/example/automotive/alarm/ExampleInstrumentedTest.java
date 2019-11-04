@@ -1,4 +1,4 @@
-package com.example.ckm.adas;
+package com.example.automotive.alarm;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.ckm.ckm_app_ble", appContext.getPackageName());
+        assertEquals("com.example.automotive.alarm", appContext.getPackageName());
     }
 }

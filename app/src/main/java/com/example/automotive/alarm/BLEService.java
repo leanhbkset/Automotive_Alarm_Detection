@@ -68,17 +68,17 @@ public class BLEService extends Service{
     private static final int STATE_CONNECTED = 2;
 
     public final static String ACTION_GATT_CONNECTED =
-            "com.example.ckm.adas.ACTION_GATT_CONNECTED";
+            "com.example.automotive.alarm.ACTION_GATT_CONNECTED";
     public final static String ACTION_GATT_DISCONNECTED =
-            "com.example.ckm.adas.ACTION_GATT_DISCONNECTED";
+            "com.example.automotive.alarm.ACTION_GATT_DISCONNECTED";
     public final static String ACTION_GATT_SERVICES_DISCOVERED =
-            "com.example.ckm.adas.ACTION_GATT_SERVICES_DISCOVERED";
+            "com.example.automotive.alarm.ACTION_GATT_SERVICES_DISCOVERED";
     public final static String ACTION_DATA_AVAILABLE =
-            "com.example.ckm.adas.ACTION_DATA_AVAILABLE";
+            "com.example.automotive.alarm.ACTION_DATA_AVAILABLE";
     public final static String EXTRA_DATA =
-            "com.example.ckm.adas.EXTRA_DATA";
+            "com.example.automotive.alarm.EXTRA_DATA";
     public final static String DEVICE_DOES_NOT_SUPPORT_UART =
-            "com.example.ckm.adas.DEVICE_DOES_NOT_SUPPORT_UART";
+            "com.example.automotive.alarm.DEVICE_DOES_NOT_SUPPORT_UART";
     
     public static final UUID TX_POWER_UUID = UUID.fromString("00001804-0000-1000-8000-00805f9b34fb");
     public static final UUID TX_POWER_LEVEL_UUID = UUID.fromString("00002a07-0000-1000-8000-00805f9b34fb");
